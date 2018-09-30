@@ -51,7 +51,7 @@ balanceRank: 31, address: 0x405dd40aa9298448a58fa679ec4295eac8472a0d balance: 33
 
 ```shell
 # cmd
-node printHpNodes.js
+node printStatus.js
 
 # output
 2018-09-30T06:20:35.586Z address: 0x4604801faf9cc8c4443b269d1a10bcde7fb19c39 balance: 11173.6711 type: PreNode
