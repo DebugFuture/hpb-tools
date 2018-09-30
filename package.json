@@ -1,0 +1,11 @@
+{
+  "name": "hpb-tools",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": "https://github.com/DebugFuture/hpb-tools.git",
+  "author": "debugfuture@outlook.com",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
