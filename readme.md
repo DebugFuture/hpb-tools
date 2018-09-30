@@ -1,12 +1,18 @@
 # HPB TOOL
 
+## Install
+```shell
+cd hpb-tools
+npm install
+```
+
 ## Print High Performance Node Info
 
-```js
-// cmd
+```shell
+# cmd
 node printHpNodes.js
 
-// output
+# output
 2018-09-30T05:44:53.271Z
 balanceRank: 1, address: 0x6f1d841afce211deead45e6109895c20f8ee92f0 balance: 140205.8946
 balanceRank: 2, address: 0x8f1d6685527d53e1f0323cda728f7374517579f6 balance: 119056.1368
@@ -39,4 +45,14 @@ balanceRank: 28, address: 0xad535af4077ffa81d47b9f9fc23987152907f3c7 balance: 44
 balanceRank: 29, address: 0xbb078d7d587ef5db12918ff775fe26cb54006fc4 balance: 3381.6536
 balanceRank: 30, address: 0x58c163703d46edcfc1b99abd4f2c4801d3c997a7 balance: 3373.4965
 balanceRank: 31, address: 0x405dd40aa9298448a58fa679ec4295eac8472a0d balance: 3365.6764
+```
+
+## Print Local Node Info
+
+```shell
+# cmd
+node printHpNodes.js
+
+# output
+2018-09-30T06:20:35.586Z address: 0x4604801faf9cc8c4443b269d1a10bcde7fb19c39 balance: 11173.6711 type: PreNode
 ```

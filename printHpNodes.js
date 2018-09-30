@@ -3,7 +3,7 @@ const utils = require('./utils')
 exec()
 
 async function exec() {
-    console.log(new Date())
+    console.log((new Date()).toISOString())
 
     const hpAddresses = await utils.query('prometheus_getHpbNodes', ['latest'])
     const nodes = []

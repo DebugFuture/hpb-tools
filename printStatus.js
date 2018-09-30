@@ -4,7 +4,7 @@ const config = require('./config')
 exec()
 
 async function exec() {
-    const date = new Date()
+    const date = (new Date()).toISOString()
     const address = config.nodeAddress
 
     const rawBalance = await utils.query('hpb_getBalance', [address, 'latest'])
