@@ -11,5 +11,6 @@ async function exec() {
 
     const nodeInfo = await utils.query('admin_nodeInfo', [address, 'latest'])
 
-    console.log(`${date} address: ${address} balance: ${balance} type: ${nodeInfo.local}`)
+    const nodeType = nodeInfo.local === 'HpNode' ? 1 : 0
+    console.log(`${date} address: ${address} balance: ${balance} type: ${nodeType}`)
 }
